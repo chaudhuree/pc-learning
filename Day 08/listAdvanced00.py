@@ -15,4 +15,4 @@ for i in nList:
         print(j)
 
 for i in nList:
-  print(i[0])
+    print(i[0])
