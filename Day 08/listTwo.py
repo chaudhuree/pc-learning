@@ -34,3 +34,16 @@ print(number)
 print('pop')
 print(number.pop())
 print(number)
+
+# list iteration
+print('iteration')
+alphabets=['a','b','c','d','e','f','g']
+
+for item in alphabets:
+  print(item)
+
+  # email list 
+email = ['chaudhuree@gmail.com', 'sohan@gmail.com','kazi@gmail.com']
+for peopel in email:
+  print('***sending email to***' )
+  print(peopel)
