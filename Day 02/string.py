@@ -1,4 +1,3 @@
-from unittest import result
 
 v1 = 'hi there'
 v2 = "hi there"
