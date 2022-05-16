@@ -20,8 +20,10 @@ elif(units == "c"):
         print('your water is boiling')
     else:
         print('your water is not boiling, boiling temperature is 100')
-else:
+elif(units == "k"):
     if(temp == 373):
         print('your water is boiling')
     else:
         print('your water is not boiling, boiling temperature is 373')
+else:
+    print('i don\'t know about this unit')
