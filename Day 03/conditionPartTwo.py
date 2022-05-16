@@ -15,12 +15,12 @@ if(units == "f"):
         print('your water is boiling')
     else:
         print('your water is not boiling, boiling temperature is 212')
-if(units == "c"):
+elif(units == "c"):
     if(temp == 100):
         print('your water is boiling')
     else:
         print('your water is not boiling, boiling temperature is 100')
-if(units == "k"):
+else:
     if(temp == 373):
         print('your water is boiling')
     else:
