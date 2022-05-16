@@ -34,3 +34,14 @@ elif(name_length < 12):
 elif(name_length > 12):
     print(f'{first_name} {last_name} is larger then average length of american people name')
 
+print('#########################')
+# tweet check
+max_chars = 140
+tweet = input('enter your tweet:')
+tweet_length = len(tweet)
+
+if(tweet_length <= max_chars):
+    print(tweet)
+elif(tweet_length > max_chars):
+    print(
+        f"your tweet is {tweet_length-max_chars} characters long.please input between 1 to 140 character")
