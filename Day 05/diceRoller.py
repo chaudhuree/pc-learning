@@ -12,6 +12,6 @@ while True:
         # print(value)
     print(result)
 
-    quit = input("press q to quit..")
+    quit = input("Roll again?? press q to quit..")
     if quit == 'q':
         break
