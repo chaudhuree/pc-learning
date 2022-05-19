@@ -22,3 +22,11 @@ def vowels(str):
     return count
 print("number of vowels: ",vowels("shahriar kabir sohan chaudhuree"))
 print("number of vowels: ",vowels("kazi sabrina jahan easha"))
+
+
+# function to check if a string is palindrome
+def palindrome(str):
+    return str == str[::-1]
+
+print(palindrome("shahriar"))
+print(palindrome("amma"))
