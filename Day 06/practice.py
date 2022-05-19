@@ -30,3 +30,4 @@ def palindrome(str):
 
 print(palindrome("shahriar"))
 print(palindrome("amma"))
+
