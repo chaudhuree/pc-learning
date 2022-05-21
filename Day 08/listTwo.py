@@ -6,3 +6,9 @@ print(wishlist)
 wishlist.insert(0, 'sahab')
 wishlist.insert(2, 'easha')
 print(wishlist)
+
+# list slice
+# list[start:stop:step]
+print(wishlist[1:3])
+
+
