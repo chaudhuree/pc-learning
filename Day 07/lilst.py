@@ -7,3 +7,4 @@ blist=list(range(10))
 print(blist)
 clist=list('chauduree')
 print(clist)
+
