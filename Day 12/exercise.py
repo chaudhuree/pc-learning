@@ -25,14 +25,14 @@ el = peak.pop("height")
 
 # Use the value for "height" and store it in the dict under they key "elevation"
 peak["elevation"] = el
-# Loop over the values in the dictionary and print them all out.  Don't ask why, just do it :) 
+# Loop over the values in the dictionary and print them all out.  Don't ask why, just do it :
 for val in peak.values():
     print(val)
 
 # Loop over the keys AND values in the dictionary and print them all out in the following format:
 # key -> value
 # (print an arrow between each pair)
-for k,v in peak.items():
+for k, v in peak.items():
     print(f"{k} -> {v}")
 
 # A huge earthquake/meteor/forestfire/tsunami has destroyed the peak.  Please empty out the entire dictionary.
