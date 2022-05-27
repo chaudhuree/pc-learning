@@ -30,3 +30,21 @@ def count_fails(*scores):
 
 
 print(count_fails(50, 41, 47, 74, 76, 81))
+
+# ============== PART 3 ==============
+# Write a function called get_top_students that helps teachers find their A-grade students!
+# It should accept any number of student=score keyword arguments like colt=78 or elton=98
+# It should return a list containing the names of students who scored 90 or above
+
+# get_top_students(shahriar=91, kabir=83, sOhan=97, chaudhuree=69) -> ['shahriar', 'sOhan']
+# get_top_students(sabrina=61, jahan=76) -------------------> []
+# get_top_students(sadia=80, chaudhuree=95, simla=91)-----------> ['chaudhuree', 'simla']
+
+
+def get_top_students(**kwargs):
+    top_students = []
+    for student, score in kwargs.items():
+        if score >= 90:
+            top_students.append(student)
+    return top_students
+print(get_top_students(shahriar=91, kabir=83, sOhan=97, chaudhuree=69))
