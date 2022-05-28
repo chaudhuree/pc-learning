@@ -1,9 +1,17 @@
 class Dog:
+    species = 'canion'
+    num_dog = 0
+
     def __init__(self, name, breed, location):
         self.name = name
         self.breed = breed
         self.location = location
         self.tricks = []
+        Dog.num_dog += 1
+
+    @classmethod
+    def registration_stray(cls):
+        return cls('coming soon', 'unknown', 'unknown')
 
     def bark(self):
         print(f"{self.name} says WOOF!")
@@ -24,3 +32,4 @@ myDog.bark()
 myDog.learn_trick("roll over")
 myDog.perform_trick("roll over")
 myDog.perform_trick("sit")
+print(Dog.num_dog)
