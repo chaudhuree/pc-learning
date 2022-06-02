@@ -1,5 +1,5 @@
-from ecommerce.report.sales import salesReport
 from ecommerce import product
+from ecommerce.reportFile.sales import salesreport
 
-salesReport()
+salesreport()
 product.product()
