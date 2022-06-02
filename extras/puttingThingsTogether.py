@@ -3,6 +3,7 @@ def sentence_maker(phrase):
     if phrase.startswith(interrogatives):
         capitalized = phrase.capitalize()
         return f"{capitalized}?"
+        # return "{}?".format(capitalized)
     else:
         return f"{phrase}."
 
